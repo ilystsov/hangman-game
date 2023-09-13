@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hw-template"
+version = "0.1.0"
+description = ""
+authors = ["Almaz Ilaletdinov <a.ilaletdinov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "hangman", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "1.5.1"
+wemake-python-styleguide = "0.18.0"
+isort = "5.12.0"
+pytest = "7.4.2"
+pytest-cov = "4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+line_length = 80
+multi_line_output = 3
+include_trailing_comma = true
