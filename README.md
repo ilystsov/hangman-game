@@ -9,3 +9,8 @@ The objective of the game is to guess the hidden word, one letter at a time.
 5. You **win** when you successfully guess all the letters in the word.
 6. You **lose** when you run out of attempts.
 7. (**mandatory**) Have fun!
+
+## Gameplay demonstration
+Here is the demonstration of gameplay using asciinema:
+
+[Hangman Gameplay](https://asciinema.org/a/BkFyH3EaaEqSzfVJbyCWbDU53)
