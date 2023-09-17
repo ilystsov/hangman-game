@@ -7,4 +7,5 @@ lint:
 test:
 	poetry run pytest
 
-# build:
+build:
+	poetry build

@@ -1,4 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/2B5YtW8c)
-# Домашнее задание
+# Hangman Game
+The objective of the game is to guess the hidden word, one letter at a time.
 
-[Требования](requirements.md)
+## The rules of the game
+1. In the begging of the game the word is entirely concealed with underscores.
+2. You are given a number of attempts equal to the number of letters in the word.
+3. If the guessed letter is **correct**, it will be revealed in the word.
+4. If the guessed letter is **incorrect**, you lose one attempt.
+5. You **win** when you successfully guess all the letters in the word.
+6. You **lose** when you run out of attempts.
+7. (**mandatory**) Have fun!
