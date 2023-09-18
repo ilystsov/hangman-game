@@ -1,3 +1,4 @@
+import os
 import sys
 from secrets import choice
 
@@ -31,7 +32,9 @@ class HangmanGame(object):
 
         :return: str
         """
-        with open('words_base.txt', 'r') as words_base:
+        abs_path_current_directory = os.path.dirname(os.path.abspath(__file__))
+        abs_path_words_base = os.path.join(abs_path_current_directory, 'words_base.txt')
+        with open(abs_path_words_base, 'r') as words_base:
             words: list[str] = words_base.readlines()
             return choice(words).rstrip('\n')
 

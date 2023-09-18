@@ -14,3 +14,6 @@ The objective of the game is to guess the hidden word, one letter at a time.
 Here is the demonstration of gameplay using asciinema:
 
 [Hangman Gameplay](https://asciinema.org/a/BkFyH3EaaEqSzfVJbyCWbDU53)
+
+##Launching the game
+To start playing use the following command: `make run`

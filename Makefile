@@ -9,3 +9,6 @@ test:
 
 build:
 	poetry build
+
+run:
+	python3 src/hangman/game.py
