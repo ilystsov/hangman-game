@@ -15,5 +15,5 @@ Here is the demonstration of gameplay using asciinema:
 
 [Hangman Gameplay](https://asciinema.org/a/BkFyH3EaaEqSzfVJbyCWbDU53)
 
-##Launching the game
+## Launching the game
 To start playing use the following command: `make run`
