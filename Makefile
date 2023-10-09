@@ -5,7 +5,7 @@ lint:
 	poetry run mypy tests
 
 test:
-	poetry run pytest
+	poetry run pytest --cov=src --cov-report html
 
 build:
 	poetry build
